@@ -23,12 +23,12 @@ In binary, 8 can be represented by 3 bits.
 
 There are 7 command in BIT like this.
 ```
-'001' ... Increment this pointer
-'010' ... Decrement this pointer
-'011' ... Move to the next pointer
-'100' ... Move to the previous pointer
-'101' ... output this pointer
-'110' ... get value and assign a value to a pointer
+'001' ... Increment this pointer ( = '+')
+'010' ... Decrement this pointer ( = '-')
+'011' ... Move to the next pointer ( = '>')
+'100' ... Move to the previous pointer ( = '<')
+'101' ... output this pointer ( = '.')
+'110' ... get value and assign a value to a pointer ( = ',')
 '111' ... output "Hello world!!\n"
 ```
 
